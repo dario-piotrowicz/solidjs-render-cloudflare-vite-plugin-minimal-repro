@@ -1,0 +1,21 @@
+{
+  "name": "solidjs-render-cloudflare-vite-plugin-minimal-repro",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite dev",
+    "build": "vite build",
+    "preview": "npm run build && vite preview",
+    "deploy": "npm run build && wrangler deploy"
+  },
+  "devDependencies": {
+    "@cloudflare/vite-plugin": "^1.9.1",
+    "vite": "^7.0.3",
+    "wrangler": "^4.24.0"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "solid-js": "^1.9.7"
+  }
+}
